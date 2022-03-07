@@ -13,16 +13,16 @@ const Navbar = () => {
             </Typography.Title>
         </div>
         <Menu theme="dark">
-            <Menu.Item >
+            <Menu.Item  className='navbar-element'>
                 <Link to="/">Home</Link>
             </Menu.Item>
-            <Menu.Item >
+            <Menu.Item  className='navbar-element'>
                 <Link to="/cryptocurrencies">Cryptocurrencies</Link>
             </Menu.Item>
-            <Menu.Item >
+            <Menu.Item className='navbar-element'>
                 <Link to="/exchanges">Exchanges</Link>
             </Menu.Item>
-            <Menu.Item >
+            <Menu.Item className='navbar-element'>
                 <Link to="/news">News</Link>
             </Menu.Item>
         </Menu>

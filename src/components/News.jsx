@@ -17,7 +17,7 @@ const News = ({ simplified }) => {
     newsCategory,
     count: simplified ? 6 : 12,
   });
-
+  console.log(cryptoNews)
   if (!cryptoNews?.value) return <Loader />;
 
   return (
@@ -25,7 +25,7 @@ const News = ({ simplified }) => {
       {!simplified && (
         <Col span={24}>
           <Select
-            showSearch
+            // showSearch
             className="select-news"
             placeholder="Select a Crypto"
             optionFilterProp="children"
