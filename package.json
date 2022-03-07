@@ -1,5 +1,6 @@
 {
   "name": "crypto_app",
+  "homepage": "https://Adrian7172.github.io/crypto-API-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "antd": "^4.18.7",
     "axios": "^0.26.0",
     "chart.js": "^3.7.1",
+    "gh-pages": "^3.2.3",
     "html-react-parser": "^1.4.8",
     "millify": "^4.0.0",
     "moment": "^2.29.1",
@@ -23,6 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

@@ -37,7 +37,7 @@ const Cryptocurrencies = ({ simplified }) => {
           <Col
             xs={24}
             sm={12}
-            lg={6}
+            lg={8}
             className="crypto-card"
             key={currency.uuid}
           >
