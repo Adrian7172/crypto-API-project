@@ -20,9 +20,6 @@ const Navbar = () => {
                 <Link to="/cryptocurrencies">Cryptocurrencies</Link>
             </Menu.Item>
             <Menu.Item className='navbar-element'>
-                <Link to="/exchanges">Exchanges</Link>
-            </Menu.Item>
-            <Menu.Item className='navbar-element'>
                 <Link to="/news">News</Link>
             </Menu.Item>
         </Menu>
