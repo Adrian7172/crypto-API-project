@@ -16,7 +16,7 @@ const App = () => {
                 <Layout>
                     <div className='routes'>
                         <Switch>
-                            <Route path="/">
+                            <Route exact path="/">
                                 <Homepage />
                             </Route>
                             <Route exact path="/cryptocurrencies">
